@@ -14,8 +14,6 @@ public class Main {
         while (start) {
             System.out.println("\nEnter 'play' to play or 'quit' to quit the game: ");
             String enter = scanner.nextLine().toLowerCase();
-
-
             if (enter.equals("play")) {
                 game.startGame();
             } else if (enter.equals("quit")) {

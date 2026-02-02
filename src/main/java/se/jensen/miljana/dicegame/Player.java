@@ -32,9 +32,8 @@ public class Player {
     }
 
     //Metod som uppdaterar score
-    public int addToScore(int points) {
-        return score += points;
-
+    public void addToScore(int points) {
+        score += points;
     }
 
     //Hämtar poäng
